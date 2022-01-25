@@ -1,0 +1,46 @@
+body{
+    background-color: #8EDBD8;
+    font-family: "Comic Sans MS", serif;
+}
+.info{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.start{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: orange;
+    text-align: center;
+    background: brown;
+    border-radius: 100px;
+    margin-right: 40px;
+}
+.turns{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.field{
+    place-content: center;
+    width: 600px;
+    height: 600px;
+    background-color: seagreen;
+    border-radius: 50px;
+    margin: auto;
+    padding: 10px;
+}
+.row{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.cell{
+    width: 140px;
+    height: 140px;
+    background: peru;
+    border-radius: 50px;
+    margin-right: 2px;
+}

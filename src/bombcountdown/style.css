@@ -1,0 +1,27 @@
+body{
+    background-color: #8EDBD8;
+    font-family: "Comic Sans MS", serif;
+}
+.info{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.timer{
+    margin-right: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.start{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: orange;
+    text-align: center;
+    background: brown;
+    border-radius: 100px;
+    margin-right: 40px;
+}
