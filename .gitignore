@@ -1,5 +1,5 @@
-.idea/
-.cache
-dist
-node_modules/
-package-lock.json
+/node_modules/
+/dist/
+/.cache/
+/.idea/
+/package-lock.json/

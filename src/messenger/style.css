@@ -20,6 +20,7 @@ body{
     left: 0;
     margin: auto;
     border-radius: 40px;
+    box-shadow: 15px 15px 25px 5px #39656a;
 }
 .chat{
     width: 90%;

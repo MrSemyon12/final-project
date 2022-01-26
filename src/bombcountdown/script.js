@@ -5,7 +5,6 @@ start.addEventListener('click', main)
 
 function main() {
     start.removeEventListener('click', main)
-    sec = 9
     let promise = new Promise((resolve) => {
         let timer = setInterval(() => {
             time.innerText = '00:0' + sec
@@ -19,8 +18,10 @@ function main() {
         }, 1000)
 
     })
-    promise.then((successMessage) => {
-        console.log(successMessage)
+    promise.then(() => {
+        alert('BOOM!')
+        time.innerText = '00:10'
+        sec = 9
         start.addEventListener('click', main)
     })
 }

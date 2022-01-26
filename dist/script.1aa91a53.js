@@ -125,7 +125,6 @@ start.addEventListener('click', main);
 
 function main() {
   start.removeEventListener('click', main);
-  sec = 9;
   var promise = new Promise(function (resolve) {
     var timer = setInterval(function () {
       time.innerText = '00:0' + sec;
@@ -139,8 +138,10 @@ function main() {
       }
     }, 1000);
   });
-  promise.then(function (successMessage) {
-    console.log(successMessage);
+  promise.then(function () {
+    alert('BOOM!');
+    time.innerText = '00:10';
+    sec = 9;
     start.addEventListener('click', main);
   });
 }
@@ -172,7 +173,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49553" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62300" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
