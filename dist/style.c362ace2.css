@@ -1,0 +1,46 @@
+body {
+    background-color: #8EDBD8;
+}
+
+#mainContainer, #photoContainer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#photoContainer {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+#mainContainer {
+    width: 800px;
+    height: 1200px;
+    margin-left: calc(50% - 850px);
+    background-color: white;
+    font-family: "Comic Sans MS", serif;
+    letter-spacing: 0;
+    font-size: 200%;
+    line-height: 1.75;
+}
+
+div.textBlock {
+    margin-left: 5%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: dashed blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*# sourceMappingURL=/style.c362ace2.css.map */
