@@ -1,0 +1,19 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSemyon12/final-project.git"
+  },
+  "author": "MrSemyon12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSemyon12/final-project/issues"
+  },
+  "homepage": "https://github.com/MrSemyon12/final-project#readme"
+}
