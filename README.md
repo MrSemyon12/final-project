@@ -1,6 +1,6 @@
 # Final Project
 This is my final front-end project.
-Now it's uploaded to the hosting, you can test it at: http://167.99.255.113/
+Now it's uploaded to the hosting, you can test it at: http://167.99.255.113:7777/final-project/
 # Installation
 If you want to copy this project to your local one, you have to do the following steps:
 1) clone project from _GitHub_: https://github.com/MrSemyon12/final-project.git
